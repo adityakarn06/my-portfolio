@@ -1,4 +1,5 @@
 import React from 'react'
+import { Analytics } from '@vercel/analytics/react';
 
 import './App.css'
 import Header from './components/Header'
@@ -18,6 +19,7 @@ function App() {
         <Skills></Skills> 
         <Project></Project>
         <Reach></Reach>
+        <Analytics />
        </div>
     </>
   )
